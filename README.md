@@ -12,8 +12,6 @@
 
 2. Because the project relies on websites, make sure you have a good Internet connection, especially if you are running the speedup graph code locally. If the Internet goes down the program will crash.
 
-3. Running locally, I once got the error message "Connection reset by peer" when running each timing event 20 times. I believe this occured because I was pinging the website too frequently and the traffic on the webpage was too high to accomodate all of my requests. I would suggest running the program with "python3 timer-and-plot.py 1" so that all timing events occur but they only get timed once. This will still run the program 18 times, so you can see it doesn't crash/deadlock, but avoids pinging the website a bunch.
-
 #### Test Cases
 
 Navigate to the “./proj3/src/scraper” directory. 
